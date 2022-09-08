@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 /**
- * Function - Prints string to standard output
+ * main - entry point of code
  *
- * @main: entry point of code
- *
- * return: zero
+ * Return: zero
  */
 
 int main(void)
