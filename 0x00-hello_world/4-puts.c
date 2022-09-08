@@ -1,12 +1,12 @@
+#include <stdio.h>
+
 /**
- * Prints string to standard output
+ * Function - Prints string to standard output
  *
- * main - entry point of code
+ * @main: entry point of code
  *
  * return: zero
  */
-
-#include <stdio.h>
 
 int main(void)
 {
