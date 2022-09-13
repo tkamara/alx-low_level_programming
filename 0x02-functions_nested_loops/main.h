@@ -11,7 +11,7 @@
 
 int print(void)
 {
-	char buffer[9] = "_putchar ";
+	char buffer[10] = "_putchar\n";
 
 	write(1, buffer, sizeof(buffer));
 
