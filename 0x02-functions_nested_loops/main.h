@@ -4,17 +4,18 @@
 #include <unistd.h>
 
 /**
- * _putchar - writes the character to
- * @c: The character to print
+ * print - writes the character to standard output
  *
  * Return: zero
  */
 
-int _putchar(void)
+int print(void)
 {
 	char buffer[12] = "_putchar\n";
 
-	return (write(1, buffer, sizeof(buffer)));
+	write(1, buffer, sizeof(buffer));
+
+	return (0);
 }
 
 #endif

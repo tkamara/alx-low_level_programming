@@ -9,7 +9,7 @@
 int main(void)
 {
 
-	_putchar();
+	print();
 
 	return (0);
 
