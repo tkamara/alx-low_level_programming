@@ -2,9 +2,11 @@
 #define MAIN_H_
 
 /**
- * _putchar: prints
+ * _putchar - prints characters to stdout
  *
- * @ch - character ch
+ * print_alphabet - prints alphabet in lowercase
+ *
+ * @ch: character ch
  *
  * Return: zero
  */
