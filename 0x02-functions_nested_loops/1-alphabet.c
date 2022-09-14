@@ -1,14 +1,19 @@
 #include "main.h"
 
 /**
- * main - printing alphabet
+ * print_alphabet - print lowercase alphabet
  *
- * Return: zero
+ * Return: none
  */
 
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
+	char lc;
 
-	return (0);
+	for (lc = 97; lc < 123; lc++)
+	{
+		_putchar(lc);
+	}
+	_putchar('\n');
+
 }
