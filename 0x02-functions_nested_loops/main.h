@@ -1,36 +1,19 @@
-#ifndef MAIN_H
-#define MAIN_H
-
-#include <unistd.h>
+#ifndef MAIN_H_
+#define MAIN_H_
 
 /**
- * _putchar - writes the character to standard output
+ * _putchar: prints
  *
- * @ch:  character to be printed
- * Return: zero
- */
-
-int _putchar(char ch)
-{
-	return (write(1, &ch, 1));
-
-}
-
-/**
- * print_alphabet - function toprint lowercase letters
+ * @ch - character ch
  *
  * Return: zero
  */
 
-void print_alphabet(void)
-{
-	char c;
+int _putchar(char ch);
 
-	for (c = 97; c < 123; c++)
-	{
-		_putchar(c);
-	}
-	_putchar('\n');
-}
+void print_alphabet(void);
+
+
+
 
 #endif
