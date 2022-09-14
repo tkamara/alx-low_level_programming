@@ -4,18 +4,16 @@
 #include <unistd.h>
 
 /**
- * print - writes the character to standard output
+ * _putchar - writes the character to standard output
  *
+ * @ch:  character to be printed
  * Return: zero
  */
 
-int print(void)
+int _putchar(char ch)
 {
-	char buffer[10] = "_putchar\n";
+	return (write(1, &ch, sizeof(ch)));
 
-	write(1, buffer, sizeof(buffer));
-
-	return (0);
 }
 
 /**
@@ -26,13 +24,13 @@ int print(void)
 
 void print_alphabet(void)
 {
-	char ch;
+	char c;
 
-	for (ch = 97; ch < 122; ch++)
+	for (c = 97; c < 123; c++)
 	{
-		putchar(ch);
+		_putchar(c);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
 
 #endif

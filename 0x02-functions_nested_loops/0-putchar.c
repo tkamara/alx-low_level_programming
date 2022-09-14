@@ -9,7 +9,9 @@
 int main(void)
 {
 
-	print();
+	char buffer[10] = "_putchar\n";
+
+	_putchar(buffer);
 
 	return (0);
 
