@@ -9,11 +9,15 @@
 int main(void)
 {
 
-	/*char buffer[9] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r', '\n'};*/
-
-	char buffer = 'p';
-
-	_putchar(buffer);
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 
