@@ -22,5 +22,6 @@ void print_rev(char *s)
 		temp = s[i];
 		s[i] = s[counter - i - 1];
 		s[counter - i - 1] = temp;
+		_putchar(s);
 	}
 }
