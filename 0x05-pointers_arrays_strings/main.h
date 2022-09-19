@@ -20,4 +20,6 @@ int _putchar(char ch);
 
 void print_rev(char *s);
 
+void rev_string(char *s);
+
 #endif
