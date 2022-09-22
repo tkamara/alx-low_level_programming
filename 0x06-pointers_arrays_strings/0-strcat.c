@@ -12,22 +12,19 @@ char *_strcat(char *dest, char *src)
 {
 
 	int length, counter;
-	char a[], b[];
 
 	length = 0;
-	a = dest;
-	b = src;
-
-	while (a[length] != '\0')
+	while (dest[length] != '\0')
 	{
 		length++;
 	}
-	for (i = 0; b[i] != '\0'; i++; length++)
+	for (counter = 0; src[counter] != '\0'; counter++)
 	{
-		a[length] = b[i];
+		dest[length] = src[counter];
+		length++;
 	}
 
-	a[length] = '\0';
+	dest[length] = '\0';
 
-	_putchar(a);
+	return (dest);
 }
