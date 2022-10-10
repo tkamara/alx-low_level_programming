@@ -9,13 +9,17 @@
 
 int _sqrt_recursion(int n)
 {
-	if (n == 0)
+	int ans, checker;
+
+	ans = 0, checker = 1;
+	ans = calculator(n, checker);
+	if (ans == -1)
 	{
-		return (0);
+		return (-1);
 	}
 	else
 	{
-		return (calculator(n, 1));
+		return (ans);
 	}
 }
 
