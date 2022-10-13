@@ -11,12 +11,13 @@
 
 void print_name(char *name, void (*f)(char *s))
 {
-	if (name != NULL || f != NULL)
-	{
-		f(name);
-	}
-	else
+	if (name == NULL || f == NULL)
 	{
 		return;
 	}
+	else
+	{
+		f(name);
+	}
+}
 }
