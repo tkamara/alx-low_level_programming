@@ -10,9 +10,10 @@
  * Return: 0
  */
 
-int main(int argc, char *argv)
+int main(int argc, char *argv[])
 {
 	int x, y;
+	char *w;
 	int (*z)(int, int);
 
 	if (argc != 4)
@@ -23,7 +24,8 @@ int main(int argc, char *argv)
 
 	x = atoi(argv[1]);
 	y = atoi(argv[3]);
-	z = get_op_func(argv[2]);
+	w = (argv[2]);
+	z = get_op_func(w);
 
 	if (argv[2][1] != '\0' || z == NULL)
 	{
