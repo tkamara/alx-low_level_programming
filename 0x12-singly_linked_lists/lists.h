@@ -4,7 +4,7 @@
 
 /**
  * struct list_s - the singly linked list
- * @s: string
+ * @str: string
  * @len: length of string
  * @next: the next node
  *
